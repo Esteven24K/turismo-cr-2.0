@@ -1,0 +1,37 @@
+{
+    "nombre":"Tourism Costa Rica",
+    "btnNavInicio": "Home",
+    "btnNavAcercaDe": "About",
+    "btnNavTurismos": "Tours",
+    "btnNavCotizarServicio": "Request Quote",
+    "btnNavContactos":"Contacts",
+    "btnNavIdioma":"Lenguege",
+    "es":"Spanish",
+    "en":"English",
+    "titulo": "Creative and Innovative Solution",
+    "subtitulo": "CREATIVE AND INNOVATIVE",
+    "btn1Corousel":"Free Quote",
+    "btn1Corouse2":"Contact Us",
+    "btn1CorouseAnt":"Previous",
+    "btn1CorouseSigu":"Next",
+    "Facts": [
+        {
+          "titulo": "Satisfied Clients",
+          "total": "1000",
+          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+          "colorIcon": "fa fa-users text-success"
+        },
+        {
+          "titulo": "Services We Offer",
+          "total": "5",
+          "colorFond": "bg-secondary bg-gradient shadow d-flex align-items-center justify-content-center p-4",
+          "colorIcon": "fa fa-check text-secondary"
+        },
+        {
+          "titulo": "Market Competition",
+          "total": "120",
+          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+          "colorIcon": "fa fa-award text-success"
+        }
+    ]
+}

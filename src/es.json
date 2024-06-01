@@ -1,0 +1,37 @@
+{
+    "nombre":"Turismo Costa Rica",
+    "btnNavInicio":"Inicio",
+    "btnNavAcercaDe":"Acerca de",
+    "btnNavTurismos":"Turismos",
+    "btnNavCotizarServicio":"Cotizar servicio",
+    "btnNavContactos":"Contactos",
+    "btnNavIdioma":"Idioma",
+    "es":"Español",
+    "en":"Ingles",
+    "titulo": "Solución creativa e innovadora",
+    "subtitulo": "CREATIVOS E INNOVADORES",
+    "btn1Corousel":"Cotización Gratis",
+    "btn1Corouse2":"Contactenos",
+    "btn1CorouseAnt":"Anterior",
+    "btn1CorouseSigu":"Siguiente",
+    "Facts": [
+        {
+          "titulo": "Clientes Satisfechos",
+          "total": "1000",
+          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+          "colorIcon": "fa fa-users text-success"
+        },
+        {
+          "titulo": "Servicios que ofrecemos",
+          "total": "5",
+          "colorFond": "bg-secondary bg-gradient shadow d-flex align-items-center justify-content-center p-4",
+          "colorIcon": "fa fa-check text-secondary"
+        },
+        {
+          "titulo": "Competencia en el mercado",
+          "total": "120",
+          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+          "colorIcon": "fa fa-award text-success"
+        }
+    ]
+}
