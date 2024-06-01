@@ -101,7 +101,6 @@ function PrincipalPage(props) {
 									<ChooseUs />
 									<OurServices />
 									<Team />
-									<QuoteServices />
 
 
 								</div>
@@ -124,7 +123,6 @@ function PrincipalPage(props) {
 
 
 									<OurServices />
-									<QuoteServices />
 
 
 								</div>
@@ -132,21 +130,12 @@ function PrincipalPage(props) {
 						case "CONTACTOS":
 							return (
 								<div className="mb-5">
-
-
 									<Team />
-									<QuoteServices />
-
-
 								</div>
 							);
 						case "PRESUPUESTO":
 							return (
 								<div className="mb-5">
-
-
-									<QuoteServices />
-
 
 								</div>
 							);
@@ -170,7 +159,6 @@ function PrincipalPage(props) {
 									<ChooseUs />
 									<OurServices />
 									<Team />
-									<QuoteServices />
 
 
 								</div>

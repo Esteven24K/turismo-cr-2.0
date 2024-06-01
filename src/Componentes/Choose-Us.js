@@ -11,13 +11,13 @@ function ChooseUs() {
         <div className="container-fluid py-5 fadeInUp" data-wow-delay="0.1s">
             <div className="container py-5">
                 <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: "600px" }}>
-                    <h5 className="fw-bold text-success text-uppercase">POR QUÉ ELEGIRNOS</h5>
-                    <h1 className="mb-0">Estamos aca para ofrecerte soluciones rapidas y eficaces</h1>
+                    <h5 className="fw-bold text-success text-uppercase">{datos.ChoosePage.titulo}</h5>
+                    <h1 className="mb-0">{datos.ChoosePage.subTitulo}</h1>
                 </div>
                 <div className="row g-5">
                     <div className="col-lg-4">
                         <div className="row g-5">
-                            {datos.Chooses.slice(0, 2).map((choose, index) => (
+                            {datos.ChoosePage.Chooses.slice(0, 2).map((choose, index) => (
                                 <CardChoose key={index} choose={choose} />
                             ))}
                         </div>
@@ -29,8 +29,9 @@ function ChooseUs() {
                     </div>
                     <div className="col-lg-4">
                         <div className="row g-5">
-                            <CardChoose choose={Chooses[2]} />
-                            <CardChoose choose={Chooses[3]} />
+                            {datos.ChoosePage.Chooses.slice(2, 4).map((choose, index) => (
+                                <CardChoose key={index} choose={choose} />
+                            ))}
                         </div>
                     </div>
 

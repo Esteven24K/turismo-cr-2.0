@@ -1,87 +1,151 @@
 {
-    "nombre":"Tourism Costa Rica",
+    "nombre": "Tourism Costa Rica",
     "btnNavInicio": "Home",
     "btnNavAcercaDe": "About",
     "btnNavTurismos": "Tours",
     "btnNavCotizarServicio": "Request Quote",
-    "btnNavContactos":"Contacts",
-    "btnNavIdioma":"Lenguege",
-    "es":"Spanish",
-    "en":"English",
+    "btnNavContactos": "Contacts",
+    "btnNavIdioma": "Lenguege",
+    "es": "Spanish",
+    "en": "English",
     "titulo": "Creative and Innovative Solution",
     "subtitulo": "CREATIVE AND INNOVATIVE",
-    "btn1Corousel":"Free Quote",
-    "btn1Corouse2":"Contact Us",
-    "btn1CorouseAnt":"Previous",
-    "btn1CorouseSigu":"Next",
+    "btn1Corousel": "Free Quote",
+    "btn1Corouse2": "Contact Us",
+    "btn1CorouseAnt": "Previous",
+    "btn1CorouseSigu": "Next",
     "Facts": [
         {
-          "titulo": "Satisfied Clients",
-          "total": "1000",
-          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
-          "colorIcon": "fa fa-users text-success"
+            "titulo": "Satisfied Clients",
+            "total": "1000",
+            "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+            "colorIcon": "fa fa-users text-success"
         },
         {
-          "titulo": "Services We Offer",
-          "total": "5",
-          "colorFond": "bg-secondary bg-gradient shadow d-flex align-items-center justify-content-center p-4",
-          "colorIcon": "fa fa-check text-secondary"
+            "titulo": "Services We Offer",
+            "total": "5",
+            "colorFond": "bg-secondary bg-gradient shadow d-flex align-items-center justify-content-center p-4",
+            "colorIcon": "fa fa-check text-secondary"
         },
         {
-          "titulo": "Market Competition",
-          "total": "120",
-          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
-          "colorIcon": "fa fa-award text-success"
+            "titulo": "Market Competition",
+            "total": "120",
+            "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+            "colorIcon": "fa fa-award text-success"
         }
     ],
+    "teamTitulo": "Professionals ready to help you",
+    "teamSubtitulo": "Our team",
     "persons": [
         {
-          "FullName": "Esteven Guardado Atencio",
-          "Designation": "Software Developer",
-          "Img": "/img/team-1.jpg",
-          "SocialNetworks": {
-            "urlFacebook": "#",
-            "urlInstagram": "#",
-            "urlLinkedIn": "#"
-          }
+            "FullName": "Esteven Guardado Atencio",
+            "Designation": "Software Developer",
+            "Img": "/img/team-1.jpg",
+            "SocialNetworks": {
+                "urlFacebook": "#",
+                "urlInstagram": "#",
+                "urlLinkedIn": "#"
+            }
         },
         {
-          "FullName": "Keilor Arauz",
-          "Designation": "General Administrator",
-          "Img": "/img/team-2.jpg",
-          "SocialNetworks": {
-            "urlFacebook": "https://www.google.com/search?rlz=1C1ONGR_esCR1016CR1016&q=concatenate+%7B%22img/%22%7D+persons.img&sa=X&ved=2ahUKEwicrur78qn-AhUtg4QIHSsSD10Q7xYoAHoECB4QAQ&biw=1366&bih=649&dpr=1",
-            "urlInstagram": "#",
-            "urlLinkedIn": "#"
-          }
+            "FullName": "Keilor Arauz",
+            "Designation": "General Administrator",
+            "Img": "/img/team-2.jpg",
+            "SocialNetworks": {
+                "urlFacebook": "https://www.google.com/search?rlz=1C1ONGR_esCR1016CR1016&q=concatenate+%7B%22img/%22%7D+persons.img&sa=X&ved=2ahUKEwicrur78qn-AhUtg4QIHSsSD10Q7xYoAHoECB4QAQ&biw=1366&bih=649&dpr=1",
+                "urlInstagram": "#",
+                "urlLinkedIn": "#"
+            }
         },
         {
-          "FullName": "Ever Vega",
-          "Designation": "Scrum Master",
-          "Img": "/img/team-3.jpg",
-          "SocialNetworks": {
-            "urlFacebook": "#",
-            "urlInstagram": "#",
-            "urlLinkedIn": "#"
-          }
+            "FullName": "Ever Vega",
+            "Designation": "Scrum Master",
+            "Img": "/img/team-3.jpg",
+            "SocialNetworks": {
+                "urlFacebook": "#",
+                "urlInstagram": "#",
+                "urlLinkedIn": "#"
+            }
         }
-      ],
-      "Chooses": [
-        {
-          "icono": "fa fa-cubes text-white",
-          "titulo": "Best in the market"
-        },
-        {
-          "icono": "fa fa-award text-white",
-          "titulo": "Award-winning"
-        },
-        {
-          "icono": "fa fa-users-cog text-white",
-          "titulo": "Specialized personnel"
-        },
-        {
-          "icono": "fa fa-phone-alt text-white",
-          "titulo": "24/7 support"
-        }
-      ]
+    ],
+    "ChoosePage": {
+        "titulo": "WHY CHOOSE US",
+        "subTitulo": "We are here to offer you fast and effective solutions",
+        "Chooses": [
+            {
+                "icono": "fa fa-cubes text-white",
+                "titulo": "Best in the market"
+            },
+            {
+                "icono": "fa fa-award text-white",
+                "titulo": "Award-winning"
+            },
+            {
+                "icono": "fa fa-users-cog text-white",
+                "titulo": "Specialized personnel"
+            },
+            {
+                "icono": "fa fa-phone-alt text-white",
+                "titulo": "24/7 support"
+            }
+        ]
+    },
+    "ServicesPage": {
+        "serviceTitle": "Our Services",
+        "serviceSubTitle": "Air conditioning repair, gas installation.",
+        "serviceContact": "Contact us for a quote",
+        "serviceDescription": "We will assist you as quickly as possible.",
+        "Servicios": [
+            {
+                "id": "00",
+                "titulo": "Air Conditioning Installation",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-chart-pie text-white"
+            },
+            {
+                "id": "01",
+                "titulo": "Air Conditioning Repair",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-shield-alt text-white"
+            },
+            {
+                "id": "02",
+                "titulo": "Gas Installation",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-code text-white"
+            },
+            {
+                "id": "03",
+                "titulo": "Electrical Wiring Installation",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fab fa-android text-white"
+            },
+            {
+                "id": "04",
+                "titulo": "Space Optimization",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-search text-white"
+            }
+        ]
+    },
+    "about_us": {
+        "titulo": "ABOUT US",
+        "subTitulo": "The best solution in air conditioning with 10 years of experience",
+        "descripcion": "We are a company specialized in air conditioning solutions. We offer installation, maintenance, and repair services for air conditioning systems for homes, offices, commercial spaces, and more. We have a team of highly trained professionals committed to providing quality and personalized service to each of our clients. Our main goal is to ensure that our clients have a pleasant and comfortable environment at all times. Thank you for your attention, and we look forward to working with you!",
+        "meritos": [
+            {
+                "titulo": "Award-winning"
+            },
+            {
+                "titulo": "Professional staff"
+            },
+            {
+                "titulo": "24/7 support"
+            },
+            {
+                "titulo": "Affordable prices"
+            }
+        ],
+        "btnTitulo": "Request quote"
+    }
 }

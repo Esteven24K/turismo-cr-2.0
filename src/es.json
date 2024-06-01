@@ -1,87 +1,151 @@
 {
-    "nombre":"Turismo Costa Rica",
-    "btnNavInicio":"Inicio",
-    "btnNavAcercaDe":"Acerca de",
-    "btnNavTurismos":"Turismos",
-    "btnNavCotizarServicio":"Cotizar servicio",
-    "btnNavContactos":"Contactos",
-    "btnNavIdioma":"Idioma",
-    "es":"Español",
-    "en":"Ingles",
+    "nombre": "Turismo Costa Rica",
+    "btnNavInicio": "Inicio",
+    "btnNavAcercaDe": "Acerca de",
+    "btnNavTurismos": "Turismos",
+    "btnNavCotizarServicio": "Cotizar servicio",
+    "btnNavContactos": "Contactos",
+    "btnNavIdioma": "Idioma",
+    "es": "Español",
+    "en": "Ingles",
     "titulo": "Solución creativa e innovadora",
     "subtitulo": "CREATIVOS E INNOVADORES",
-    "btn1Corousel":"Cotización Gratis",
-    "btn1Corouse2":"Contactenos",
-    "btn1CorouseAnt":"Anterior",
-    "btn1CorouseSigu":"Siguiente",
+    "btn1Corousel": "Cotización Gratis",
+    "btn1Corouse2": "Contactenos",
+    "btn1CorouseAnt": "Anterior",
+    "btn1CorouseSigu": "Siguiente",
     "Facts": [
         {
-          "titulo": "Clientes Satisfechos",
-          "total": "1000",
-          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
-          "colorIcon": "fa fa-users text-success"
+            "titulo": "Clientes Satisfechos",
+            "total": "1000",
+            "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+            "colorIcon": "fa fa-users text-success"
         },
         {
-          "titulo": "Servicios que ofrecemos",
-          "total": "5",
-          "colorFond": "bg-secondary bg-gradient shadow d-flex align-items-center justify-content-center p-4",
-          "colorIcon": "fa fa-check text-secondary"
+            "titulo": "Servicios que ofrecemos",
+            "total": "5",
+            "colorFond": "bg-secondary bg-gradient shadow d-flex align-items-center justify-content-center p-4",
+            "colorIcon": "fa fa-check text-secondary"
         },
         {
-          "titulo": "Competencia en el mercado",
-          "total": "120",
-          "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
-          "colorIcon": "fa fa-award text-success"
+            "titulo": "Competencia en el mercado",
+            "total": "120",
+            "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
+            "colorIcon": "fa fa-award text-success"
         }
     ],
+    "teamTitulo": "Profecionales listos para ayudarles",
+    "teamSubtitulo": "Nuestro equipo de trabajo",
     "persons": [
         {
-          "FullName": "Esteven Guardado Atencio",
-          "Designation": "Desarrollador de Software",
-          "Img": "/img/team-1.jpg",
-          "SocialNetworks": {
-            "urlFacebook": "#",
-            "urlInstagram": "#",
-            "urlLinkedIn": "#"
-          }
+            "FullName": "Esteven Guardado Atencio",
+            "Designation": "Desarrollador de Software",
+            "Img": "/img/team-1.jpg",
+            "SocialNetworks": {
+                "urlFacebook": "#",
+                "urlInstagram": "#",
+                "urlLinkedIn": "#"
+            }
         },
         {
-          "FullName": "Keilor Arauz",
-          "Designation": "Administrador General",
-          "Img": "/img/team-2.jpg",
-          "SocialNetworks": {
-            "urlFacebook": "https://www.google.com/search?rlz=1C1ONGR_esCR1016CR1016&q=concatenate+%7B%22img/%22%7D+persons.img&sa=X&ved=2ahUKEwicrur78qn-AhUtg4QIHSsSD10Q7xYoAHoECB4QAQ&biw=1366&bih=649&dpr=1",
-            "urlInstagram": "#",
-            "urlLinkedIn": "#"
-          }
+            "FullName": "Keilor Arauz",
+            "Designation": "Administrador General",
+            "Img": "/img/team-2.jpg",
+            "SocialNetworks": {
+                "urlFacebook": "https://www.google.com/search?rlz=1C1ONGR_esCR1016CR1016&q=concatenate+%7B%22img/%22%7D+persons.img&sa=X&ved=2ahUKEwicrur78qn-AhUtg4QIHSsSD10Q7xYoAHoECB4QAQ&biw=1366&bih=649&dpr=1",
+                "urlInstagram": "#",
+                "urlLinkedIn": "#"
+            }
         },
         {
-          "FullName": "Ever Vega",
-          "Designation": "Scrum Master",
-          "Img": "/img/team-3.jpg",
-          "SocialNetworks": {
-            "urlFacebook": "#",
-            "urlInstagram": "#",
-            "urlLinkedIn": "#"
-          }
+            "FullName": "Ever Vega",
+            "Designation": "Scrum Master",
+            "Img": "/img/team-3.jpg",
+            "SocialNetworks": {
+                "urlFacebook": "#",
+                "urlInstagram": "#",
+                "urlLinkedIn": "#"
+            }
         }
     ],
-    "Chooses": [
-        {
-          "icono": "fa fa-cubes text-white",
-          "titulo": "Mejor en el mercado"
-        },
-        {
-          "icono": "fa fa-award text-white",
-          "titulo": "Ganador de premios"
-        },
-        {
-          "icono": "fa fa-users-cog text-white",
-          "titulo": "Personal especializado"
-        },
-        {
-          "icono": "fa fa-phone-alt text-white",
-          "titulo": "Soporte 24/7"
-        }
-      ]
+    "ChoosePage": {
+        "titulo":"POR QUÉ ELEGIRNOS",
+        "subTitulo":"Estamos aca para ofrecerte soluciones rapidas y eficaces",
+        "Chooses": [
+            {
+                "icono": "fa fa-cubes text-white",
+                "titulo": "Mejor en el mercado"
+            },
+            {
+                "icono": "fa fa-award text-white",
+                "titulo": "Ganador de premios"
+            },
+            {
+                "icono": "fa fa-users-cog text-white",
+                "titulo": "Personal especializado"
+            },
+            {
+                "icono": "fa fa-phone-alt text-white",
+                "titulo": "Soporte 24/7"
+            }
+        ]
+    },
+    "ServicesPage": {
+        "serviceTitle": "Nuestros Servicios",
+        "serviceSubTitle": "Reparacion de aires acondicionados, instalacion de gas.",
+        "serviceContact": "Contactenos para una cotización",
+        "serviceDescription": "Le atenderemos lo mas rapido posible",
+        "Servicios": [
+            {
+                "id": "00",
+                "titulo": "Instalación de aires acondicionados",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-chart-pie text-white"
+            },
+            {
+                "id": "01",
+                "titulo": "Reparación de aires acondicionados",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-shield-alt text-white"
+            },
+            {
+                "id": "02",
+                "titulo": "Instalación de gas",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-code text-white"
+            },
+            {
+                "id": "03",
+                "titulo": "Instalación de cableado eléctrico",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fab fa-android text-white"
+            },
+            {
+                "id": "04",
+                "titulo": "Optimización del espacio",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "icono": "fa fa-search text-white"
+            }
+        ]
+    },
+    "about_us": {
+        "titulo": "SOBRE NOSOTROS",
+        "subTitulo": "La mejor solución en aires acondicionados con 10 años de experiencia",
+        "descripcion": "Somos una empresa especializada en soluciones de climatización. Ofrecemos servicios de instalación, mantenimiento y reparación de sistemas de aire acondicionado para hogares, oficinas, locales comerciales y más. Contamos con un equipo de profesionales altamente capacitados y comprometidos en brindar un servicio de calidad y personalizado a cada uno de nuestros clientes. Nuestro objetivo principal es asegurarnos de que nuestros clientes tengan un ambiente agradable y cómodo en todo momento. ¡Gracias por su atención y esperamos trabajar con ustedes!",
+        "meritos": [
+            {
+                "titulo": "Ganador de premios"
+            },
+            {
+                "titulo": "Personal profesional"
+            },
+            {
+                "titulo": "Soporte 24/7"
+            },
+            {
+                "titulo": "Precios accesibles"
+            }
+        ],
+        "btnTitulo": "Solicitar presupuesto"
+    }
 }
