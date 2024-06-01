@@ -33,5 +33,55 @@
           "colorFond": "bg-success shadow d-flex align-items-center justify-content-center p-4",
           "colorIcon": "fa fa-award text-success"
         }
-    ]
+    ],
+    "persons": [
+        {
+          "FullName": "Esteven Guardado Atencio",
+          "Designation": "Software Developer",
+          "Img": "/img/team-1.jpg",
+          "SocialNetworks": {
+            "urlFacebook": "#",
+            "urlInstagram": "#",
+            "urlLinkedIn": "#"
+          }
+        },
+        {
+          "FullName": "Keilor Arauz",
+          "Designation": "General Administrator",
+          "Img": "/img/team-2.jpg",
+          "SocialNetworks": {
+            "urlFacebook": "https://www.google.com/search?rlz=1C1ONGR_esCR1016CR1016&q=concatenate+%7B%22img/%22%7D+persons.img&sa=X&ved=2ahUKEwicrur78qn-AhUtg4QIHSsSD10Q7xYoAHoECB4QAQ&biw=1366&bih=649&dpr=1",
+            "urlInstagram": "#",
+            "urlLinkedIn": "#"
+          }
+        },
+        {
+          "FullName": "Ever Vega",
+          "Designation": "Scrum Master",
+          "Img": "/img/team-3.jpg",
+          "SocialNetworks": {
+            "urlFacebook": "#",
+            "urlInstagram": "#",
+            "urlLinkedIn": "#"
+          }
+        }
+      ],
+      "Chooses": [
+        {
+          "icono": "fa fa-cubes text-white",
+          "titulo": "Best in the market"
+        },
+        {
+          "icono": "fa fa-award text-white",
+          "titulo": "Award-winning"
+        },
+        {
+          "icono": "fa fa-users-cog text-white",
+          "titulo": "Specialized personnel"
+        },
+        {
+          "icono": "fa fa-phone-alt text-white",
+          "titulo": "24/7 support"
+        }
+      ]
 }

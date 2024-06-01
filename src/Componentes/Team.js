@@ -1,9 +1,10 @@
 import React from "react";
-import { persons } from "../data";
 import CardPerson from "./Widgets/CardPerson";
-
+import { AppContext } from '../AppContext';
+import { useContext } from 'react';
 
 function Team() {
+    const { datos } = useContext(AppContext);
 
     return (
         <div className="container-fluid py-5 fadeInUp" data-wow-delay="0.1s">
@@ -13,7 +14,7 @@ function Team() {
                     <h1 className="mb-0">Profecionales listos para ayudarles</h1>
                 </div>
                 <div className="row g-5">
-                    {persons.map((person, index) => (
+                    {datos.persons.map((person, index) => (
                         <CardPerson key={index} person={person} />
                     ))}
                 </div>
