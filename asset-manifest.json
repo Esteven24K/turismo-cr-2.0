@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/turismo-cr-2.0/static/css/main.bb01e575.css",
-    "main.js": "/turismo-cr-2.0/static/js/main.43ac714a.js",
+    "main.js": "/turismo-cr-2.0/static/js/main.3a179e78.js",
     "static/js/453.6dcd3d62.chunk.js": "/turismo-cr-2.0/static/js/453.6dcd3d62.chunk.js",
     "index.html": "/turismo-cr-2.0/index.html",
     "main.bb01e575.css.map": "/turismo-cr-2.0/static/css/main.bb01e575.css.map",
-    "main.43ac714a.js.map": "/turismo-cr-2.0/static/js/main.43ac714a.js.map",
+    "main.3a179e78.js.map": "/turismo-cr-2.0/static/js/main.3a179e78.js.map",
     "453.6dcd3d62.chunk.js.map": "/turismo-cr-2.0/static/js/453.6dcd3d62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb01e575.css",
-    "static/js/main.43ac714a.js"
+    "static/js/main.3a179e78.js"
   ]
 }
