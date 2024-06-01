@@ -147,5 +147,10 @@
             }
         ],
         "btnTitulo": "Request quote"
+    },
+    "Footer": {
+        "derechos": "All rights reserved",
+        "proveedor":"Superior Technicians ST",
+        "siglas":"TECGA"
     }
 }

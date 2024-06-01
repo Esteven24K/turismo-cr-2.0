@@ -1,12 +1,16 @@
 import React from "react";
-
+import { AppContext } from '../AppContext';
+import { useContext } from 'react';
 
 function Footer() {
+
+    const { datos } = useContext(AppContext);
+
 
     return (
         <div>
             <a href="#" className="btn btn-lg btn-success btn-lg-square rounded back-to-top"><i className="bi bi-arrow-up"></i></a>
-            
+
 
             <div className="container-fluid text-white" style={{ background: "#18241d" }}>
 
@@ -16,8 +20,8 @@ function Footer() {
 
                         <div className="col-lg-12 col-md-4">
                             <div className="d-flex align-items-center justify-content-center" style={{ height: "75px" }}>
-                                <p className="mb-0">&copy; <a className="text-white border-bottom" href="#">Tecnicos Superiores SA</a>. {"Todos los derechos recervados "}
-                                    <a className="text-white border-bottom" href="https://htmlcodex.com">TECGA. </a></p>
+                                <p className="mb-0">&copy; <a className="text-white border-bottom" href="#">{datos.Footer.proveedor}</a>. {datos.Footer.derechos}
+                                    <a className="text-white border-bottom" href="https://htmlcodex.com">{datos.Footer.siglas}</a></p>
 
 
                             </div>

@@ -24,7 +24,7 @@ function ChooseUs() {
                     </div>
                     <div className="col-lg-4 zoomIn" data-wow-delay="0.9s" style={{ minHeight: "350px" }}>
                         <div className="position-relative h-100">
-                            <img className="position-center w-100 h-100" data-wow-delay="0.1s" src={process.env.PUBLIC_URL + "/img/feature.jpg"} style={{ objectFit: "cover" }} />
+                            <img className="position-center w-100 h-100 zoomIn" data-wow-delay="0.1s" src={process.env.PUBLIC_URL + "/img/feature.jpg"} style={{ objectFit: "cover" }} />
                         </div>
                     </div>
                     <div className="col-lg-4">

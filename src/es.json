@@ -147,5 +147,10 @@
             }
         ],
         "btnTitulo": "Solicitar presupuesto"
+    },
+    "Footer": {
+        "derechos": "Todos los derechos recervados",
+        "proveedor":"Tecnicos Superiores SA",
+        "siglas":"TECGA"
     }
 }
